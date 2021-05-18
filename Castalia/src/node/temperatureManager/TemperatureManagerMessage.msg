@@ -1,0 +1,4 @@
+
+message TemperatureManagerMessage {
+	double temperature;
+}

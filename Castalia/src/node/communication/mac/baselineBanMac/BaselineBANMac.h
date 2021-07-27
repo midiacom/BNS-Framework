@@ -156,6 +156,7 @@ class BaselineBANMac : public VirtualMac {
 	int relay;
 	int relayPar;
 
+	double RSSIsamples;
 
 	// neighborhood checkup and relay selection
 	Neighborhood neighborhood = Neighborhood();

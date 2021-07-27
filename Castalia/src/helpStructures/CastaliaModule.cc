@@ -180,6 +180,8 @@ void CastaliaModule::powerDrawn(double power)
 			classPointers.resourceManager = getParentModule()->getParentModule()->getSubmodule("ResourceManager");
 		else if (name.compare("SensorManager") == 0)
 			classPointers.resourceManager = getParentModule()->getSubmodule("ResourceManager");
+		else if (name.compare("Routing") == 0)
+            		classPointers.resourceManager = getParentModule()->getParentModule()->getSubmodule("ResourceManager");
 		else
 			opp_error("%s module has no rights to call drawPower() function", getFullPath().c_str());
         if (!classPointers.resourceManager) 

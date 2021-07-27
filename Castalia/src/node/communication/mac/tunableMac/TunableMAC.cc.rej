@@ -1,0 +1,12 @@
+--- ./src/node/communication/mac/tunableMac/TunableMAC.cc	2011-03-30 02:14:34.000000000 -0300
++++ ./src/node/communication/mac/tunableMac/TunableMAC.cc	2011-12-19 23:57:43.894686687 -0300
+@@ -456,7 +458,8 @@
+ 		}
+ 
+ 		case DATA_FRAME:{
+-			toNetworkLayer(macFrame->decapsulate());
++			cPacket *netPkt = decapsulatePacket(macFrame);
++			toNetworkLayer(netPkt);
+ 			collectOutput("TunableMAC packet breakdown", "received data pkts");
+ 			if (macState == MAC_STATE_RX) {
+ 				cancelTimer(ATTEMPT_TX);

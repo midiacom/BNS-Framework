@@ -1,0 +1,11 @@
+#.gitignore
+out
+.vscode
+.idea
+*.log
+*.png
+*.o
+temperature_stats_node*
+?_m
+CastaliaBin
+Makefile

@@ -6,6 +6,10 @@ The Body Network Simulator (BNS) Framework is a WBAN realistic simulation framew
 - A temperature based routing protocol (LATOR)
 - A Personal Health Device application using IEEE 11073 protocol (agent and manager)
 
+If you use this framework, please refer to:
+
+**Caballero, E.; Ferreira, V.; Lima, R.A.; Soto, J.C.H.; Muchaluat-Saade, D.; Albuquerque, C. BNS: A Framework for Wireless Body Area Network Realistic Simulations. Sensors 2021, 21, 5504. https://doi.org/10.3390/s21165504**
+
 For more information on Castalia refer to: github.com/boulis/Castalia
 
 To install you must have OMNeT++ 4.6 and Antidote Library.

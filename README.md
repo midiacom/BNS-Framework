@@ -8,7 +8,7 @@ The Body Network Simulator (BNS) Framework is a WBAN realistic simulation framew
 
 If you use this framework, please refer to:
 
-**Caballero, E.; Ferreira, V.; Lima, R.A.; Soto, J.C.H.; Muchaluat-Saade, D.; Albuquerque, C. BNS: A Framework for Wireless Body Area Network Realistic Simulations. Sensors 2021, 21, 5504. https://doi.org/10.3390/s21165504**
+Caballero, E.; Ferreira, V.; Lima, R.A.; Soto, J.C.H.; Muchaluat-Saade, D.; Albuquerque, C. BNS: A Framework for Wireless Body Area Network Realistic Simulations. Sensors 2021, 21, 5504. https://doi.org/10.3390/s21165504
 
 For more information on Castalia refer to: github.com/boulis/Castalia
 
